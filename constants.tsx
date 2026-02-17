@@ -9,16 +9,9 @@ import {
   Layout, 
   Image as ImageIcon, 
   PenTool, 
-  Video, 
-  Award, 
-  Shield, 
-  Database, 
-  Network, 
-  Cpu, 
-  Search,
-  Users
+  Video
 } from 'lucide-react';
-import { Certification, Skill, EducationEvent } from './types';
+import { Certification, Skill, EducationEvent } from './types.ts';
 
 export const CERTIFICATIONS: Certification[] = [
   { id: '1', name: 'MOS: Excel', issuer: 'Certiport', year: 2020, icon: 'spreadsheet', category: 'Microsoft' },
